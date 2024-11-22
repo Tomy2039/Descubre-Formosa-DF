@@ -1,0 +1,13 @@
+/* index.css */
+
+/* Importa los estilos base de Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Asegura que el body y el html ocupen toda la pantalla */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
